@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a li{
+    list-style: none;
+    color: aliceblue;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav::before{
+    content: "iNCREDITEX ";
+    color: aliceblue;
+}
+
+
+nav::after{
+    content: "Logout";
+    color: aliceblue;
+}
+a li:hover{
+    color: aquamarine;
+}
+
+
+a li:visited{
+    color: red;
+}
+
+.desc{
+    background-color: rgb(255, 251, 251);
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.desc::first-letter{
+    font-size: 40px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.desc::first-line{
+    font-size: 20px;
+    font-weight: lighter;
+    color: blueviolet;
+    
+}
+
+.desc::selection{
+   
+    color: red;
+    background-color: rgb(171, 243, 3);
+}
+
+.container h1{
+    position: relative;
+    font-size: 50px;
+}
+
+.container h1::after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 7px;
+    left: 4%;
+    bottom: 3px;
+    width: 200px;
+    z-index: -1;
+    /* transform: scaleX(0);
+    transition: all 0.4s; */
+
+}
+/* 
+.container h1 :hover ::after{
+    transform: scaleX(1);
+} */
