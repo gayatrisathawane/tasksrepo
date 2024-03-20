@@ -15,13 +15,11 @@
 }
 
 .box {
-  background-color:rgb(249, 231, 161);
+  background-color:white;
   height: 67px;
   border: 1px solid rgb(235, 209, 107);
   /* width: 20px; */
 }
-
-.box:nth-child(even) {
-  background-color: rgb(105, 63, 0);
-  border: 1px solid rgb(63, 38, 1) ;
+.w-box{
+  background-color: rgb(10, 34, 34);
 }
