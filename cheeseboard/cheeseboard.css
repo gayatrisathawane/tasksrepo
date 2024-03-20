@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  width: 70%;
+  height: 80vh;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  border: 20px solid rgb(159, 53, 0);
+  background-color: antiquewhite;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: repeat(8, auto);
+  /* grid-column-gap: 90px;
+  grid-row-gap: 90px; */
+}
+
+.box {
+  background-color:rgb(249, 231, 161);
+  height: 67px;
+  border: 1px solid rgb(235, 209, 107);
+  /* width: 20px; */
+}
+
+.box:nth-child(even) {
+  background-color: rgb(105, 63, 0);
+  border: 1px solid rgb(63, 38, 1) ;
+}
